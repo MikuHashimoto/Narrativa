@@ -15,7 +15,6 @@ export default function LogoutModal({ open, setOpen }: any) {
 
     return (
         <Modal
-            size="sm"
             show={open}
             onHide={() => setOpen(false)} // モーダルを閉じる
             keyboard={false}
